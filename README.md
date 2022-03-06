@@ -1,0 +1,3 @@
+# Bakery-Website
+
+Website with Bootstrap & jquery plugins...

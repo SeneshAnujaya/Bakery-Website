@@ -1,0 +1,350 @@
+/* ===================================================
+    ||| Bootstrap 3 Media Queries
+=======================================================*/
+
+/* Large Devices {Desktop & Laptops} */
+@media (min-width: 1200px) {
+  .img-wrapper {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+  }
+  #footer-menu a {
+    margin: 0px 7px;
+  }
+}
+
+/* Medium Devices {landscapeTablets & Medium Desktops} */
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Mobile menu */
+
+  .navbar {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 0;
+  }
+  .navbar-nav {
+    float: left;
+  }
+  .bakery-nav-wrapper {
+    padding: 0;
+  }
+  .navbar-header {
+    padding: 7px 0;
+  }
+  .navbar-brand img {
+    width: 40px;
+    height: 40px;
+    margin-top: -10px;
+    border: 1px solid #f44e3f;
+  }
+  #services .col-md-4 {
+    padding-left: 0;
+  }
+  #about .col-md-4 {
+    padding: 0;
+  }
+
+  #about .content-title h3 {
+    position: relative;
+    font-size: 37px;
+  }
+  #about .content-title-underline {
+    right: 0;
+    position: absolute;
+  }
+  .about-desc p {
+    padding-top: 30px;
+  }
+  #about .about-btn {
+    position: absolute;
+    right: 0;
+  }
+  .img-wrapper {
+    height: 210px;
+    overflow: hidden;
+  }
+  #footer-menu a {
+    margin: 0px 0px;
+  }
+}
+
+/* small Devices {portraitTablets & small Desktops} */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Mobile menu */
+  .navbar {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 0;
+  }
+  .navbar-nav {
+    float: left;
+  }
+  .bakery-nav-wrapper {
+    padding: 0;
+  }
+  .navbar-brand img {
+    width: 40px;
+    height: 40px;
+    margin-top: -10px;
+    border: 1px solid #f44e3f;
+  }
+  #home-heading i {
+    font-size: 5.5rem;
+  }
+  #home-heading h3 {
+    font-size: 60px;
+  }
+
+  #home-heading #hra {
+    width: 575px;
+  }
+  #home-content-box-inner p {
+    max-width: 550px;
+    margin: 5px auto 0 auto;
+  }
+  /* About -remvoe diagonal border */
+  #about-bg-diagonal {
+    border-top: 0;
+    border-right: 0;
+    width: 100%;
+    height: 350px;
+  }
+  #about-content-box {
+    width: 100%;
+    height: 350px;
+  }
+  #about .content-title h3 {
+    text-align: center;
+  }
+  .about-desc p {
+    text-align: center;
+  }
+  .about-btn {
+    margin: 0;
+  }
+  .img-wrapper {
+    height: 225px;
+    overflow: hidden;
+  }
+  #pricing .product-container {
+    margin-bottom: 50px;
+  }
+  .product-img img {
+    height: 220px;
+  }
+  /* stats */
+  .stats-item {
+    padding: 20px 0;
+  }
+  #footer-copyrights {
+    text-align: center;
+  }
+}
+/*Extraa small devices (Landscape phones and portrait Tablets) */
+@media (max-width: 767px) {
+  /* Mobile menu */
+  .navbar {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 0;
+  }
+  .navbar-nav {
+    float: left;
+  }
+  .bakery-nav-wrapper {
+    padding: 0;
+  }
+
+  #home-heading #hra {
+    /* width: 520px; */
+    /* display: none; */
+    max-width: 360px;
+  }
+  .navbar-brand img {
+    width: 40px;
+    height: 40px;
+    margin-top: -10px;
+    border: 1px solid #f44e3f;
+  }
+  #home-heading h3 {
+    font-size: 50px;
+  }
+  #home-heading i {
+    font-size: 4.5rem;
+  }
+  #home-content-box-inner p {
+    max-width: 455px;
+    margin: 5px auto 0 auto;
+    font-size: 15px;
+    font-weight: lighter;
+  }
+  /* Buttons */
+  .btn-general {
+    padding: 6px 22px 6px 22px;
+    font-size: 15px;
+  }
+  /* About -remvoe diagonal border */
+  #about-bg-diagonal {
+    border-right: 0;
+    border-top: 0;
+    width: 100%;
+    height: 350px;
+  }
+  #about-content-box {
+    width: 100%;
+    height: 350px;
+  }
+  #about .content-title h3 {
+    text-align: center;
+  }
+  .about-desc p {
+    text-align: center;
+  }
+  .about-btn {
+    margin: 0;
+  }
+  #about .content-title-underline {
+    margin: 0 auto 30px auto;
+  }
+  /* work */
+  .img-wrapper img {
+    min-width: 100%;
+  }
+  .img-wrapper {
+    /* height: 00px; */
+    height: 100%;
+    overflow: hidden;
+  }
+  /* testimonials */
+  .testimonial blockquote {
+    padding: 6px 50px;
+  }
+  .testimonial blockquote:before {
+    left: 10px;
+  }
+  .testimonial blockquote:after {
+    right: 10px;
+  }
+  .testimonial blockquote p {
+    font-size: 14px;
+  }
+  #pricing .content-box {
+    padding: 60px 35px 80px 35px;
+  }
+  #pricing .product-container {
+    margin-bottom: 40px;
+  }
+  .product-img {
+    height: 300px;
+  }
+  .product-img img {
+    /* height: 325px; */
+    width: 100%;
+    height: 100%;
+  }
+  .price-desc {
+    padding: 40px 0 0 0;
+  }
+  .price {
+    width: 100%;
+    margin: 40px auto 0 auto;
+    padding: 0.6rem;
+    font-size: 17px;
+    letter-spacing: 1px;
+    color: var(--white);
+    font-weight: 500;
+    background-color: var(--darkBrown);
+    transition: all 0.2s ease-in-out;
+  }
+  /* stats */
+  .stats-item {
+    padding: 20px 0;
+  }
+  /* Footer */
+  #footer-copyrights {
+    text-align: center;
+  }
+}
+/* Extra small devices */
+@media (max-width: 480px) {
+  .content-title h3 {
+    font-size: 3rem;
+  }
+  .navbar-brand img {
+    width: 30px;
+    height: 30px;
+    margin-top: -5px;
+  }
+  #home-heading i {
+    font-size: 3.5rem;
+  }
+  #home-heading h3 {
+    font-size: 37px;
+  }
+  #home-content-box-inner p {
+    padding: 0 7px;
+    font-size: 13.5px;
+  }
+  #home-content-box-inner .est {
+    font-size: 15px;
+  }
+  .btn-general {
+    padding: 5px 14px 5px 14px;
+    font-size: 13px;
+  }
+
+  #services .why-choose-title {
+    font-size: 3rem;
+  }
+  .service-item-title h3 {
+    font-size: 16px;
+  }
+  .service-item-desc p {
+    font-size: 14px;
+  }
+  #about .content-title h3 {
+    text-align: center;
+    padding-top: 25px;
+  }
+  .about-desc p {
+    font-size: 14px;
+  }
+  .team-member {
+    margin: 0 auto;
+  }
+
+  h4.team-member-name {
+    font-size: 18px;
+    padding-top: 0;
+  }
+  h4.team-member-designation {
+    font-size: 14px;
+  }
+  .social-list i {
+    font-size: 18px;
+  }
+
+  .testimonial img {
+    max-width: 100px;
+    border: 3px solid #f79e88;
+  }
+  .testimonial blockquote {
+    padding: 32px 0px;
+  }
+
+  #pricing .content-box {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .product-img {
+    height: auto;
+  }
+  .client {
+    padding: 20px 0;
+  }
+  #contact-left p {
+    font-size: 14px;
+  }
+  #footer-copyrights p {
+    font-size: 14px;
+  }
+}
